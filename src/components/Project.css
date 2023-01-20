@@ -1,0 +1,19 @@
+
+
+
+.website {
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.site {
+     margin-top:50px;
+}
+
+.didascalia {
+
+    width:400px;
+}
+
