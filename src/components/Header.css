@@ -1,5 +1,10 @@
 
-.nav {
-    display: flex;
-    justify-content: space-around;
+.link {
+    text-decoration: none;
 }
+
+.col {
+
+    font-family:Arial, Helvetica, sans-serif;
+}
+

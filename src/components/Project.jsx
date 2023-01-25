@@ -12,22 +12,24 @@ function Project() {
     <div>
         <h1 className='text-center fw-bolder mt-5' id="progetti">Progetti</h1>
 
-        <div className="website">
+      
+
+                <div className="row">
          
-           <div className="site">
+                   <div className="col mt-5">
                 
-               <img src={site}   width="400px" height="400px"/>
+                       <img src={site}   width="400px" height="400px"/>
 
-               <div className="didascalia">
+                   <div className="col didascalia">
 
-               <h4 className="text-center fw-bolder mt-2">Pizzeria Angolo Rosso</h4>
+                   <h4 className="text-center fw-bolder mt-2">Pizzeria Angolo Rosso</h4>
 
-               <p>Questo e' un sito che contiene l'elenco delle pizze da ordinare dove 
-                cliccando su quei bottoni puoi procedere sulla quantita' degli ordini 
-                e quali pizze vuoi ordinare.
-               </p>
+                       <p>Questo e' un sito che contiene l'elenco delle pizze da ordinare dove 
+                       cliccando su quei bottoni puoi procedere sulla quantita' degli ordini 
+                       e quali pizze vuoi ordinare.
+                      </p>
 
-                  <button className='rounded bg-primary fs-4 text-white border-info'><a href='https://pizzeriaangolorosso.netlify.app' target='_blank' style={{textDecoration:'none',color:'white'}}>Vai al sito</a></button>
+                      <button className='rounded bg-primary fs-4 text-white border-info'><a href='https://pizzeriaangolorosso.netlify.app' target='_blank' style={{textDecoration:'none',color:'white'}}>Vai al sito</a></button>
 
             
                </div>
@@ -35,11 +37,11 @@ function Project() {
            </div>
 
 
-           <div className="site">
+           <div className="col mt-5">
 
                <img src={site2}   width="400px" height="400px"/>
 
-               <div className="didascalia">
+               <div className="col didascalia">
 
                 <h4 className="text-center fw-bolder mt-2">B&B Le Cerase(sviluppo in corso)</h4>
 
@@ -54,11 +56,11 @@ function Project() {
                 
             </div>
 
-            <div className="site">
+            <div className="col mt-5">
 
                 <img src={site3}   width="400px" height="400px"/>
 
-                <div className="didascalia">
+                <div className="col didascalia">
 
                 <h4 className="text-center fw-bolder mt-2">The CocktailDB</h4>
 
@@ -76,9 +78,10 @@ function Project() {
                
 
             
-           </div>
+           </div>         
 
-          
+        
+       
 
             
            </div>

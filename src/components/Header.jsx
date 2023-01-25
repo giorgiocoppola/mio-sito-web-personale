@@ -5,16 +5,28 @@ import './Header.css'
 function Header() {
   return (
     <div>
-        <div className="nav bg-primary p-3">
 
-           <Link to="" style={{textDecoration:'none',color:'white',fontSize:"30px"}}>HOME</Link>
-           <a href="#competenze" style={{textDecoration:'none',color:'white',fontSize:"30px"}}>COMPETENZE</a>
-           <a href="#progetti" style={{textDecoration:'none',color:'white',fontSize:"30px"}}>PROGETTI</a>
-           <a href="#contatti" style={{textDecoration:'none',color:'white',fontSize:"30px"}}>CONTATTI</a>
-
-        </div>
      
-    </div>
+            
+
+              <div className="col-12 bg-primary text-center text-white fs-2">GC GIORGIO COPPOLA</div>
+
+              <div className="col-12 text-center bg-primary">
+
+                   <Link to="" className='link text-white fs-3' >HOME</Link>
+                   <a href="#competenze" className='link text-white fs-3 ms-3'>COMPETENZE</a>
+                   <a href="#progetti" className='link text-white fs-3 ms-3'>PROGETTI</a>
+                   <a href="#contatti" className='link text-white fs-3 ms-3'>CONTATTI</a>
+
+             
+   
+          </div>
+
+
+      </div>
+   
+     
+  
   )
 }
 

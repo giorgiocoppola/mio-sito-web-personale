@@ -1,11 +1,15 @@
 
-.main {
-     display: flex;
-     justify-content: space-around;
-     align-items:center;
-}
+
 
 
 h1 {
      font-family:monospace
+}
+
+
+
+
+.col-sm-6 , .col-sm-4 {
+     
+     border: 1px solid black;
 }

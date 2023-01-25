@@ -43,20 +43,20 @@ function Contatti() {
     }
 
   return (
-    <div>
-        <h1 className='text-center fw-bolder m-5' id="contatti">Contatti</h1>
+    <div className='contatti'>
+        <h1 className='title-contatti text-center fw-bolder m-5' id="contatti">Contatti</h1>
 
-        <form className='bg-info row g-3 p-5 rounded m-auto mb-5'>
+        <form className='row g-3 bg-info  p-5 rounded m-auto mb-5'>
 
-            <div className="area row mb-3">
+            <div className="row mb-3">
 
-                <label htmlFor="name and surname" className='form-label text-center fs-4 text-white'>Nome e cognome:
+                <label htmlFor="name and surname" className='col text-center fs-4 text-white'>Nome e cognome:
                 <input type="text" className='form-control' id="name and surname" placeholder='Inserisci il nome e il cognome...' value={identificazione} onChange={ e => setIdentificazione(e.target.value)}/>
                 <p className='text-center text-danger fw-bolder fs-5'>{message}</p>
 
             </label>
             </div>
-            <div className="area row mb-3">
+            <div className="row mb-3">
                 
                 <label htmlFor="email" className='form-label text-center fs-4 text-white'>Email:
                    <input type="email" className='form-control' id='email' placeholder="Inserisci l'email... " value={email} onChange={ e => setEmail(e.target.value)}/>
@@ -65,7 +65,7 @@ function Contatti() {
 
             </div>
 
-            <div className="area row mb-3">
+            <div className="row mb-3">
                  
                  <label htmlFor="message" className='form-label text-center fs-4 text-white' >
                     Messaggio:

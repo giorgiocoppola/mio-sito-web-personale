@@ -10,20 +10,25 @@ import Softskills from './Softskills'
 
 function Home() {
   return (
-    <div>
+    <div className='home'>
         <Header />
 
-        <div className="main">
-            <img src={profilo} className = "rounded-circle m-5" alt="Mia foto di riconoscimento" />
+        <div className="row">
 
-            <div className="descrizione">
+          <div className="col">
 
-                <h1 className="fw-bolder">Buongiorno sono Giorgio Coppola</h1>
-                <p>Buongiorno sono Giorgio Coppola e sono un Frontend Developer Junior</p>
-            </div>
-         
+              <img src={profilo} className = "rounded-circle m-5" alt="Mia foto di riconoscimento" />
+          </div>
+           
+          <div className="col">
+
+                 <h1 className="fw-bolder">Buongiorno sono Giorgio Coppola</h1>
+                 <p>Buongiorno sono Giorgio Coppola e sono un Frontend Developer Junior</p>
+          </div>
+
+         </div>      
             
-        </div>
+      
 
           <h1 className='text-center fw-bolder' id='competenze'>Competenze</h1>
 

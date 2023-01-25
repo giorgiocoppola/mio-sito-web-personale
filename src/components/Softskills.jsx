@@ -4,13 +4,19 @@ import './Softskills.css'
 function Softskills() {
   return (
     <div>
-        <h1 className='fw-bolder text-center'>Soft skills</h1>
+      
+        <h1 className='col fw-bolder text-center'>Soft skills</h1>
 
-        <ul className='mt-5'>
-            <li className='fs-3'>Lavoro in team</li>
-            <li className='fs-3'>Comunicazione</li>
-            <li className='fs-3'>Problem solving</li>
-        </ul>
+          
+
+             <ul className='row  mt-5'>
+               <li className='col-sm fs-3'>Lavoro in team</li>
+               <li className='col-sm fs-3'>Comunicazione</li>
+               <li className='col-sm fs-3'>Problem solving</li>
+              </ul>
+
+         
+  
     </div>
   )
 }
