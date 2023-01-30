@@ -5,17 +5,21 @@ function Softskills() {
   return (
     <div>
       
-        <h1 className='col fw-bolder text-center'>Soft skills</h1>
+       <div className="container">
 
-          
-
-             <ul className='row  mt-5'>
-               <li className='col-sm fs-3'>Lavoro in team</li>
-               <li className='col-sm fs-3'>Comunicazione</li>
-               <li className='col-sm fs-3'>Problem solving</li>
-              </ul>
+           <h1 className='text-center fw-bolder  mt-5'>Soft skills</h1>
 
          
+
+            <ul className='row mt-5 '>
+
+               <li className='col col-sm fs-3 text-center'>Lavoro in team</li>
+               <li className='col col-sm fs-3 text-center'>Comunicazione</li>
+               <li className='col col-sm fs-3 text-center'>Problem solving</li>
+           
+            </ul>
+
+       </div>       
   
     </div>
   )

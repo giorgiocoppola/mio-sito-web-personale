@@ -13,24 +13,30 @@ function Home() {
     <div className='home'>
         <Header />
 
-        <div className="row">
+      <div className="container">
 
-          <div className="col">
+        <div className="row align-items-center">
 
-              <img src={profilo} className = "rounded-circle m-5" alt="Mia foto di riconoscimento" />
-          </div>
-           
-          <div className="col">
+            <div className="col-12 col-sm text-center">
 
-                 <h1 className="fw-bolder">Buongiorno sono Giorgio Coppola</h1>
-                 <p>Buongiorno sono Giorgio Coppola e sono un Frontend Developer Junior</p>
-          </div>
+               <img src={profilo} className = "rounded-circle m-5" alt="Mia foto di riconoscimento" />
 
-         </div>      
-            
+            </div>
+ 
+            <div className="col-12 col-sm  text-center">
+  
+               <h1 className="tit-hard fw-bolder">Buongiorno sono Giorgio Coppola</h1>
+               <p>Buongiorno sono Giorgio Coppola e sono un Frontend Developer Junior</p>
+
+            </div>
+
+        </div>      
+  
+ 
+      </div>
       
 
-          <h1 className='text-center fw-bolder' id='competenze'>Competenze</h1>
+   
 
            <Hardskills />
 
@@ -41,6 +47,7 @@ function Home() {
            <Contatti />
 
         <Footer />
+        
     </div>
   )
 }

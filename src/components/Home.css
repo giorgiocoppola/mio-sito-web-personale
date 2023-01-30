@@ -1,6 +1,9 @@
 
 
+.home {
 
+     overflow-x: hidden;
+}
 
 h1 {
      font-family:monospace
@@ -9,7 +12,3 @@ h1 {
 
 
 
-.col-sm-6 , .col-sm-4 {
-     
-     border: 1px solid black;
-}
