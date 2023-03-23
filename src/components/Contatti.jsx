@@ -11,11 +11,11 @@ function Contatti() {
 
     const handleSubmit = (e) => {
 
-       
+      e.preventDefault();
 
          if ( identificazione !== "" && email !== "") {
 
-         e.preventDefault();
+       
          setIdentificazione('');
          setEmail('');
          setMessage3("Messaggio inviato");
