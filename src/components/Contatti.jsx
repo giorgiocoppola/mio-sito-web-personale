@@ -15,7 +15,7 @@ function Contatti() {
 
          if ( identificazione !== "" && email !== "") {
 
-       
+      
          setIdentificazione('');
          setEmail('');
          setMessage3("Messaggio inviato");
