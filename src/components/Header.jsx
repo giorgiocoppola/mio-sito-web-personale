@@ -14,7 +14,7 @@ function Header() {
 
                 <Link to="" className='link text-white  ms-3' >HOME</Link>
                 <a href="#competenze" className='link text-white  ms-3'>COMPETENZE</a>
-                <a href="#progetti" className='link text-white  ms-3'>PROGETTI</a>
+                <a href="#portfolio" className='link text-white  ms-3'>PORTFOLIO</a>
                 <a href="#contatti" className='link text-white  ms-3'>CONTATTI</a>
 
           </div>    

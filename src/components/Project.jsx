@@ -2,6 +2,7 @@ import React from 'react'
 import site from '../images/pizzeriaangolorosso-netlify-app.png'
 import site2 from '../images/bed-breakfast-le-cerase-netlify-app.png'
 import site3 from '../images/cocktaildb10-netlify-app.png'
+import site4 from '../images/cantina-sociale-bordeaux1-netlify-app.png'
 import './Project.css'
 
 
@@ -13,7 +14,7 @@ function Project() {
 
        
 
-         <h1 className='text-center fw-bolder mt-5' id="progetti">Progetti</h1>
+         <h1 className=' text-center fw-bolder mt-5' id="portfolio">Portfolio</h1>
 
          <div className="container">
 
@@ -21,7 +22,7 @@ function Project() {
 
                <div className="col col-sm text-center mt-5">
 
-                 <img src={site}   width="400px" height="400px"/>
+                 <img src={site} className='site'  width="400px" height="400px"/>
 
                <div className="col-sm">
 
@@ -32,7 +33,7 @@ function Project() {
                    e quali pizze vuoi ordinare.
                    </p>
 
-               <button className='rounded bg-primary fs-4 text-white border-info'><a href='https://pizzeriaangolorosso.netlify.app' target='_blank' style={{textDecoration:'none',color:'white'}}>Vai al sito</a></button>
+               <button className='rounded bg-primary fs-4 text-white border-info'><a href='https://pizzeriaangolorosso1.netlify.app' target='_blank' style={{textDecoration:'none',color:'white'}}>Vai al sito</a></button>
 
 
                </div>
@@ -43,7 +44,7 @@ function Project() {
     
             <div className="col col-sm text-center mt-5">
 
-                 <img src={site2}   width="400px" height="400px"/>
+                 <img src={site2}  className='site'  width="400px" height="400px"/>
 
             <div className="col-sm">
 
@@ -64,7 +65,7 @@ function Project() {
 
             <div className="col col-sm text-center mt-5">
 
-                 <img src={site3}   width="400px" height="400px"/>
+                 <img src={site3}  className='site'  width="400px" height="400px"/>
 
             <div className="col-sm">
 
@@ -75,6 +76,25 @@ function Project() {
                  </p>
 
                  <button className='rounded bg-primary fs-4 text-white border-info'><a href='https://cocktaildb10.netlify.app/' target='_blank' style={{textDecoration:'none',color:'white'}}>Vai al sito</a></button>
+
+
+            </div>
+
+            </div>
+
+            <div className="col col-sm text-center mt-5">
+
+                 <img src={site4}  className='site'  width="200px" height="400px"/>
+
+            <div className="col-sm">
+
+                 <h4 className="text-center fw-bolder mt-2">Cantina sociale Bordeaux</h4>
+
+                 <p>Questo e' una web app contenente una collezione di vini(assomiglia alla web app della
+                    pizzeria)
+                 </p>
+
+                 <button className='rounded bg-primary fs-4 text-white border-info'><a href='https://cantina-sociale-boedeaux1234.netlify.app/' target='_blank' style={{textDecoration:'none',color:'white'}}>Vai al sito</a></button>
 
 
             </div>

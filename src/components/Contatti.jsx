@@ -11,11 +11,17 @@ function Contatti() {
 
     const handleSubmit = (e) => {
 
+       
+
+         if ( identificazione !== "" && email !== "") {
+
          e.preventDefault();
          setIdentificazione('');
          setEmail('');
          setMessage3("Messaggio inviato");
          setTimeout( () => setMessage3(""),3000);
+
+        }
 
          if( identificazione === "" && email === "" ) {
 
@@ -62,7 +68,7 @@ function Contatti() {
 
                </div>
 
-               <div className="col-12 mb-3">
+               <div className="col-12 col-lg mb-3">
                 
                   <label htmlFor="email" className='col-12 form-label text-center fs-4 text-white'>Email:
                   <input type="email" className='form-control' id='email' placeholder="Inserisci l'email... " value={email} onChange={ e => setEmail(e.target.value)}/>
@@ -72,7 +78,7 @@ function Contatti() {
 
                </div>
 
-              <div className="col-12 col-sm mb-3">
+              <div className="col-12 col-sm col-lg mb-3">
                  
                   <label htmlFor="message" className='col-12 form-label text-center fs-4 text-white' >
                      Messaggio:

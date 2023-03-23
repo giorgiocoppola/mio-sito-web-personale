@@ -1,5 +1,16 @@
 
 li {
     list-style-type: none;
+   
 }
 
+@media screen and (max-width:576px) {
+
+   li {
+
+      position: relative;
+      right: 10px;
+   }
+
+   
+}

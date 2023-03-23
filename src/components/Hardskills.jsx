@@ -16,15 +16,15 @@ function Hardskills() {
 
        <div className="container">
 
-          <h1 className='row justify-content-center fw-bolder' id='competenze'>Competenze</h1>
+          <h1 className='fw-bolder text-center' id='competenze'>Competenze</h1>
 
-          <h1 className='row justify-content-center fw-bolder text-center mt-4'>Hard skills</h1>
-
-       
-
+          <h1 className=' fw-bolder text-center mt-4'>Hard skills</h1>
 
        
-             <div className="row justify-content-center">
+
+
+       
+             <div className="row">
          
                  <div className='col-sm col-lg text-center mt-5' id="HTML">
 
@@ -43,7 +43,7 @@ function Hardskills() {
                 <div className='col-sm col-lg text-center mt-5' id="Bootstrap">
 
                     <h1 className='fw-bolder'>Bootstrap</h1>
-                    <img src={bootstrap} alt="Bootstrap" className='mt-5 ms-4' width="170px"  height="150px"/>
+                    <img src={bootstrap} alt="Bootstrap" className='mt-5' width="170px"  height="150px"/>
 
                 </div>
        
@@ -66,14 +66,14 @@ function Hardskills() {
                 <div className='col-sm col-lg text-center mt-5' id="mySQL">
           
                    <h1 className='text-center fw-bolder'>MySQL</h1>
-                   <img src={mysql} alt="mySQL" className='ms-5 mt-5' width="150px"  height="150px" />
+                   <img src={mysql} alt="mySQL" className='mt-5' width="150px"  height="150px" />
 
                 </div>
         
                 <div className='col-sm col-lg text-center mt-4' id="git">
 
                    <h1 className='text-center fw-bolder mt-4'>Git</h1>
-                   <img src={git} alt="Git" className='ms-5 mt-5' width="250px"  height="150px" />
+                   <img src={git} alt="Git" className='mt-5' width="250px"  height="150px" />
 
                 </div>
         

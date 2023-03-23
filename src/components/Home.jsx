@@ -19,7 +19,7 @@ function Home() {
 
             <div className="col-12 col-sm text-center">
 
-               <img src={profilo} className = "rounded-circle m-5" alt="Mia foto di riconoscimento" />
+               <img src={profilo} className = "image rounded-circle m-5" alt="Mia foto di riconoscimento" />
 
             </div>
  
@@ -47,7 +47,7 @@ function Home() {
            <Contatti />
 
         <Footer />
-        
+
     </div>
   )
 }
