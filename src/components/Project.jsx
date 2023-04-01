@@ -75,7 +75,7 @@ function Project() {
                  sul riquadro bianco(in alto a sinistra) esce il cocktail desiderato
                  </p>
 
-                 <button className='rounded bg-primary fs-4 text-white border-info'><a href='https://cocktaildb10.netlify.app/' target='_blank' style={{textDecoration:'none',color:'white'}}>Vai al sito</a></button>
+                 <button className='rounded bg-primary fs-4 text-white border-info'><a href='https://glittery-churros-956d59.netlify.app/' target='_blank' style={{textDecoration:'none',color:'white'}}>Vai al sito</a></button>
 
 
             </div>
