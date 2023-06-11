@@ -3,6 +3,7 @@ import site from '../images/pizzeriaangolorosso-netlify-app.png'
 import site2 from '../images/bed-breakfast-le-cerase-netlify-app.png'
 import site3 from '../images/cocktaildb10-netlify-app.png'
 import site4 from '../images/cantina-sociale-bordeaux1-netlify-app.png'
+import site5 from '../images/fictiontv.png'
 import './Project.css'
 
 
@@ -99,9 +100,29 @@ function Project() {
 
             </div>
 
+
+
             </div>
 
+             <div className="col col-sm text-center mt-5">
 
+                 <img src={site5}  className='site'  width="200px" height="400px"/>
+
+                  <div className="col-sm">
+
+                     <h4 className="text-center fw-bolder mt-2">Fiction TV(sviluppo in corso)</h4>
+
+                     <p>Questo e' una web app contenente una serie di fiction televisive da vedere
+                     </p>
+
+                    <button className='rounded bg-primary fs-4 text-white border-info'><a href='https://fictiontv.netlify.app/' target='_blank' style={{textDecoration:'none',color:'white'}}>Vai al sito</a></button>
+
+
+                   </div>
+
+
+
+                 </div>
 
          </div>         
 
