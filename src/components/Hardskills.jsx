@@ -7,6 +7,7 @@ import bootstrap from '../images/Bootstrap.png'
 import javascript from '../images/JavaScript.png'
 import react from '../images/react.svg'
 import mysql from '../images/mysql.png'
+import wordpress from '../images/wordpress.png'
 import git from '../images/Git.png'
 
 
@@ -61,6 +62,13 @@ function Hardskills() {
                    <h1 className='text-center fw-bolder'>React</h1>
                    <img src={react} alt="React"  className='mt-5' width="150px"  height="150px" />
   
+                </div>
+
+                <div className='col-sm col-lg text-center mt-5' id="React">
+
+                    <h1 className='text-center fw-bolder'>Wordpress</h1>
+                    <img src={wordpress} alt="React"  className='mt-5' width="150px"  height="150px" />
+
                 </div>
 
                 <div className='col-sm col-lg text-center mt-5' id="mySQL">
