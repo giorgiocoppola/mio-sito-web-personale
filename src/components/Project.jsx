@@ -34,7 +34,7 @@ function Project() {
                    e quali pizze vuoi ordinare.
                    </p>
 
-               <button className='rounded bg-primary fs-4 text-white border-info'><a href='https://pizzeriaangolorosso1.netlify.app' target='_blank' style={{textDecoration:'none',color:'white'}}>Vai al sito</a></button>
+               <button className='rounded bg-primary fs-4 text-white border-info'><a href='https://pizzeriawebsite.netlify.app/' target='_blank' style={{textDecoration:'none',color:'white'}}>Vai al sito</a></button>
 
 
                </div>
